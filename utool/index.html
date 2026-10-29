@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>UTool - EspressU</title>
+<link rel="icon" href="../assets/icon.png">
+<meta name="description" content="UTool, a small tool from the EspressU project for iPhone and iPad.">
+<meta name="author" content="Void (MuffinEMU)">
+<meta name="color-scheme" content="dark">
+<meta property="og:title" content="UTool - EspressU"><meta property="og:description" content="UTool, a small tool from the EspressU project for iPhone and iPad."><meta property="og:image" content="../assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+.ios-alert{width:270px;border-radius:14px;background:#2c2c2e;text-align:center;font-family:-apple-system,system-ui,sans-serif;color:#fff;
+  box-shadow:0 0 0 1px rgba(255,255,255,.06),0 24px 48px -24px #000;overflow:hidden}
+.ios-alert .t{padding:19px 16px 0;font-weight:600;font-size:17px;line-height:1.3}
+.ios-alert .m{padding:4px 16px 20px;font-size:13px;line-height:1.35;color:rgba(255,255,255,.85)}
+.ios-alert .b{display:grid;grid-template-columns:1fr 1fr;border-top:.5px solid rgba(255,255,255,.18);font-size:17px;color:#0a84ff}
+.ios-alert .b span{padding:11px 0}
+.ios-alert .b span+span{border-left:.5px solid rgba(255,255,255,.18);font-weight:600}
+.ut-cap{margin:14px 0 0;color:var(--muted);font-size:13px;text-align:center}
+@media (max-width:820px){
+  .ut-shot{order:0;display:flex;flex-direction:column;align-items:center;padding:28px 0 4px;border-top:1px solid var(--line)}
+  .ut-hero .cta{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="bar"><div class="bar-in">
+  <a class="brand" href="../index.html" aria-label="EspressU home"><img src="../assets/icon.png" width="32" height="32" alt="">EspressU</a>
+  <nav class="main" id="nav" aria-label="Main"><a href="../index.html#install">Install</a><a href="../index.html#features">Features</a><a href="../index.html#faq">FAQ</a><a href="../index.html#community">Community</a><a href="../about.html">About</a></nav>
+  <div class="tools"><a class="get" href="https://github.com/EspressU/EspressU-Emu/releases">Download</a>
+  <button class="icon-btn burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div>
+</div></header>
+<div class="wrap">
+<main id="main">
+<div class="hero ut-hero">
+  <div>
+    <h1>UTool</h1>
+    <p class="lead">A small tool from the EspressU project. Open this page in Safari on your iPhone or iPad and install it with one tap.</p>
+    <div class="cta"><a class="btn main" href="itms-services://?action=download-manifest&amp;url=https://espressu.github.io/EspressU-Site/utool/manifest.plist">Install UTool</a><a class="btn alt" href="#how">Install guide</a></div>
+  </div>
+  <div class="ut-shot" aria-hidden="true">
+    <div class="ios-alert"><div class="t">&ldquo;espressu.github.io&rdquo; would like to install &ldquo;UTool&rdquo;</div><div class="m"></div><div class="b"><span>Cancel</span><span>Install</span></div></div>
+    <p class="ut-cap">This is what Safari shows when you tap Install.</p>
+  </div>
+</div>
+<section class="sec" id="how"><h2>Installing</h2><div class="sec-body"><ol class="steps">
+<li><span class="n">1</span><div><h3>Open this page in Safari</h3><p>Installing only works in Safari, not in other browsers.</p></div><div class="act"></div></li>
+<li><span class="n">2</span><div><h3>Tap Install UTool</h3><p>iOS asks whether you want to install the app. Tap Install. The app then appears on your Home Screen.</p></div><div class="act"></div></li>
+<li><span class="n">3</span><div><h3>Trust the developer if asked</h3><p>If the app does not open, go to Settings, General, VPN and Device Management, and trust the developer there.</p></div><div class="act"></div></li>
+</ol></div></section>
+<section class="sec"><h2>Questions</h2><div class="sec-body"><ul class="links">
+<li><a href="https://discord.gg/HPRJGXTEt8"><span><b>Ask on Discord</b><small>If the install does not work, ask us on the EspressU Discord.</small></span><i aria-hidden="true">&nearr;</i></a></li>
+<li><a href="https://github.com/EspressU"><span><b>EspressU on GitHub</b><small>The EspressU project is open source.</small></span><i aria-hidden="true">&nearr;</i></a></li>
+</ul></div></section>
+</main>
+</div>
+<footer><div class="wrap">
+  <div class="foot-grid">
+    <div><a class="brand" href="../index.html"><img src="../assets/icon.png" width="28" height="28" alt="">EspressU</a>
+      <p>A free, open-source Wii U emulator for iPhone and iPad.</p></div>
+    <div><p class="ft">Project</p><a href="https://github.com/EspressU/EspressU-Emu">Source</a><a href="https://github.com/EspressU/EspressU-Emu/releases">Releases</a><a href="https://discord.gg/HPRJGXTEt8">Discord</a></div>
+    <div><p class="ft">Credits</p><a href="https://github.com/cemu-project/Cemu">Cemu</a><a href="https://github.com/MuffinEMU/Muffin-EMU">MuffinEMU</a><a href="../about.html">About and licence</a></div>
+  </div>
+  <p class="legal">Website designed and built by Void, creator of <a href="https://github.com/MuffinEMU/Muffin-EMU">MuffinEMU</a>, a Wii U emulator for iOS. Free and open source under MPL-2.0. EspressU is not affiliated with Nintendo. Wii U is a trademark of Nintendo.</p>
+</div></footer>
+<script src="../assets/site.js"></script>
+</body>
+</html>
