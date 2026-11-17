@@ -209,7 +209,7 @@ body{overflow-x:clip}
 .mini.flek{gap:8px;background:var(--fg);color:#111;border-color:transparent;transition:none}
 .mini.flek:hover{background:var(--fg);border-color:transparent}
 .mini.flek:active{transform:none}
-ol.alt-src{margin:0 0 44px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+ol.alt-src{margin:44px 0 0;border:1px solid var(--line);border-radius:14px;background:var(--card)}
 ol.alt-src li{border-top:0;padding:20px 22px;align-items:center;grid-template-columns:44px 1fr auto}
 ol.alt-src li:hover .n{transform:none}
 ol.alt-src .n{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:11px;background:var(--fg)}
